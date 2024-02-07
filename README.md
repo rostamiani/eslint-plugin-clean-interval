@@ -2,11 +2,11 @@
 
 # eslint-plugin-clean-timer
 
-Enforce best practice with `setTimeout` and `setInterval`
+Enforce best practice with `setInterval`
 
 ## Motivation
 
-It is always **easy** to forget to clear the timers set up by `setTimeout` or `setInterval`, which can cause bugs that are **uneasy** to find out.
+It is always **easy** to forget to clear the timers set up by `setInterval`, which can cause bugs that are **uneasy** to find out.
 
 Image a component with onMount and onUnmount life cycles, in the code below, if the component is mounted and unmounted within 1000ms, the timer will still fire
 
@@ -60,17 +60,9 @@ Add `clean-timer` to your eslint configuration file
 timer need to be cleared
 
 ```js
-setTimeout(() => {}, 1000);
 setInterval(() => {}, 1000);
 setInterval(() => {}, 0);
 setInterval(() => {});
-```
-
-timer **not** need to be cleared
-
-```js
-setTimeout(() => {}, 0);
-setTimeout(() => {});
 ```
 
 ## License

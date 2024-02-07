@@ -1,10 +1,10 @@
 # eslint-plugin-clean-timer
 
-强制实施 `setTimeout` 与 `setInterval` 的最佳实践
+强制实施 `setInterval` 的最佳实践
 
 ## 创作背景
 
-我们经常容易忘记由 `setTimeout` 或 `setInterval` 创建的定时器，这会引发一些难以排查的错误
+我们经常容易忘记由 `setInterval` 创建的定时器，这会引发一些难以排查的错误
 
 设想一个具有 `onMount` 和 `onUnmount` 生命周期的组件，在以下代码中，如果组件挂载并在 1000 毫秒内被卸载，定时器还是会触发
 
@@ -58,17 +58,9 @@ npm install eslint-plugin-clean-timer --save-dev
 需要被清除的定时器
 
 ```js
-setTimeout(() => {}, 1000);
 setInterval(() => {}, 1000);
 setInterval(() => {}, 0);
 setInterval(() => {});
-```
-
-**不**需要被清除的定时器
-
-```js
-setTimeout(() => {}, 0);
-setTimeout(() => {});
 ```
 
 ## 开源证书

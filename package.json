@@ -1,12 +1,11 @@
 {
   "name": "eslint-plugin-clean-timer",
   "version": "0.0.3",
-  "description": "best practice with setTimeout and setInterval",
+  "description": "best practice with setInterval",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin",
-    "setTimeout",
     "setInterval"
   ],
   "homepage": "https://github.com/littlee/eslint-plugin-clean-timer#readme",
