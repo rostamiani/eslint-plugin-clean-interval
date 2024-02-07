@@ -1,4 +1,4 @@
-# eslint-plugin-clean-timer
+# eslint-plugin-clean-interval
 
 强制实施 `setInterval` 的最佳实践
 
@@ -37,7 +37,7 @@ class App {
 ## 安装
 
 ```bash
-npm install eslint-plugin-clean-timer --save-dev
+npm install eslint-plugin-clean-interval --save-dev
 ```
 
 ## 使用

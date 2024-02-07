@@ -1,6 +1,6 @@
-[中文文档](https://github.com/littlee/eslint-plugin-clean-timer/blob/master/README.zh-cn.md)
+[中文文档](https://github.com/rostamiani/eslint-plugin-clean-interval/blob/master/README.zh-cn.md)
 
-# eslint-plugin-clean-timer
+# eslint-plugin-clean-interval
 
 Enforce best practice with `setInterval`
 
@@ -39,7 +39,7 @@ class App {
 ## Installation
 
 ```bash
-npm install eslint-plugin-clean-timer --save-dev
+npm install eslint-plugin-clean-interval --save-dev
 ```
 
 ## Usage

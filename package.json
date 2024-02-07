@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-clean-timer",
+  "name": "eslint-plugin-clean-interval",
   "version": "0.0.3",
   "description": "best practice with setInterval",
   "keywords": [
@@ -8,10 +8,10 @@
     "eslint-plugin",
     "setInterval"
   ],
-  "homepage": "https://github.com/littlee/eslint-plugin-clean-timer#readme",
+  "homepage": "https://github.com/rostamiani/eslint-plugin-clean-interval#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/littlee/eslint-plugin-clean-timer.git"
+    "url": "https://github.com/rostamiani/eslint-plugin-clean-interval.git"
   },
   "author": "littlee",
   "main": "lib/index.js",
